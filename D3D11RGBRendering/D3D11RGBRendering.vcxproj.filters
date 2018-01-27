@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -27,12 +24,15 @@
     <ClInclude Include="D3D11RGBRendering.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="OutputManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="D3D11RGBRendering.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D3D11RGBRendering.cpp">
+    <ClCompile Include="OutputManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,5 +48,13 @@
     <Image Include="D3D11RGBRendering.ico">
       <Filter>Resource Files</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Source Files</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Source Files</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
